@@ -118,7 +118,7 @@ if __name__ == '__main__':
     paper_train_headline, paper_valid_headline = conv_json_news_headlines_to_pandas()
     final_data = combine_data(kaggle_news_headline, paper_train_headline,paper_valid_headline)
     # print(len(final_data))
-    generate_file_summary(final_data)
+    # generate_file_summary(final_data)
     data = preprocess_data(final_data)
     # logistic_regression(data)
     multi_model_testing(data)
