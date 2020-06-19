@@ -1,4 +1,4 @@
-##Michael Kazerooni Insight project
+## Michael Kazerooni Insight project
 ## Sentiment Analysis on Financial Microblogs using Machine learning and DNN
 
 ## Setup
