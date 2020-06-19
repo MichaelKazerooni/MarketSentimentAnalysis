@@ -50,8 +50,11 @@ git push origin $branch_name
   
 ## Run Inference
 - In order to run the container created in the build environment, execute the command : docker run -p 5000:5000 <docker_name>
-- If you want to train the model, simply run classifier_training.py (preferebly using a GPU-enabled machine)
-- To evaluate the model, follow the instructions in the classifier_training.py file.
+- If you want to train the BERT model, simply run classifier_training.py (preferebly using a GPU-enabled machine)
+- To evaluate the BERT model, follow the instructions in the classifier_training.py file.
+- To evaluate the traditional machine learning approaches, run the traditional_machine_learning.py file.
+- The docker image runs using the fine-tuned Bert model.
 - Running the docker image will pop up a server that can be reached by using 0.0.0.0:5000.
-The home screen should be similar to the one below: 
+
+
 
