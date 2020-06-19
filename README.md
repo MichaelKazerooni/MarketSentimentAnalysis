@@ -37,8 +37,7 @@ git push origin $branch_name
 
 ## Requisites
 
-- List all packages and software needed to build the environment
-- This could include cloud command line tools (i.e. gsutil), package managers (i.e. conda), etc.
+- Pytorch and Flask are required.
 - You will need docker installed on your machine
 
 
@@ -49,7 +48,10 @@ git push origin $branch_name
 
   
   
-  ## Run Inference
+## Run Inference
 - In order to run the container created in the build environment, execute the command : docker run -p 5000:5000 <docker_name>
 - If you want to train the model, simply run classifier_training.py (preferebly using a GPU-enabled machine)
+- To evaluate the model, follow the instructions in the classifier_training.py file.
+- Running the docker image will pop up a server that can be reached by using 0.0.0.0:5000.
+The home screen should be similar to the one below: 
 
