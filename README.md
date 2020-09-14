@@ -1,6 +1,18 @@
 ## Michael Kazerooni Insight project
 ## Sentiment Analysis on Financial Microblogs using Machine learning and DNN
 
+This repo contains code for implementing a financial micorblog sentiment classifier using Machine learning and deep learning models.Sentiment in the financial markets are very tricky to judge and news have different affects depending on the perspective they are being viewed. Therefore, this makes sentiment classifying very difficult.
+## Data
+Two data sources were used. 
+1- Reuters financial news headlines 
+2- News headlines from kaggle (https://www.kaggle.com/kimo26/financial-news-sentiment)
+
+## Application
+The final result for this application was a flask based web application that was dockerized and deployed on AWS ECS. 
+You can visit the link below to evaluate the app.
+ http://13.57.245.84:5000/
+ 
+
 ## Setup
 Clone repository and update python path
 ```
