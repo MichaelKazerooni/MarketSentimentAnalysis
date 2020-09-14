@@ -22,10 +22,7 @@ repo_name= MarketSentimentAnalysis
 username= MichaelKazerooni
 git clone https://github.com/$username/$repo_name
 cd $repo_name
-echo "export $repo_name=${PWD}" >> ~/.bash_profile
-echo "export PYTHONPATH=$repo_name/src:${PYTHONPATH}" >> ~/.bash_profile
-source ~/.bash_profile
-```
+
 Create new development branch and switch onto it
 ```
 branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
@@ -50,8 +47,9 @@ git push origin $branch_name
 
 ## Requisites
 
-- Pytorch and Flask are required.
-- You will need docker installed on your machine
+- Pytorch 
+- Flask
+- Docker
 
 
 ## Build Environment
