@@ -12,6 +12,8 @@ The final result for this application was a flask based web application that was
 You can visit the link below to evaluate the app.<br/>
  http://13.57.245.84:5000/
  
+Below you can see a demo of the app <br/>
+![Alt Text](https://github.com/MichaelKazerooni/MarketSentimentAnalysis/blob/master/sentiment%20analysis%20demo.gif)
 
 ## Setup
 Clone repository and update python path
