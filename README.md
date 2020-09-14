@@ -46,10 +46,15 @@ git push origin $branch_name
 ```
 
 ## Requisites
+python>=3.7
+Pytorch == 1.6
+matplotlib==3.2.2
+transformers==2.11.0
+numpy==1.18.5
+future == 0.18.2
+flask == 1.1.2
 
-- Pytorch 
-- Flask
-- Docker
+
 
 
 ## Build Environment
