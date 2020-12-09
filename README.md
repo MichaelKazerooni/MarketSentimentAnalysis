@@ -1,11 +1,13 @@
-## Michael Kazerooni Insight project
+## Fine tuning the BERT model for sentiment classification
 ## Sentiment Analysis on Financial Microblogs using Machine learning and DNN
 
-This repo contains code for implementing a financial micorblog sentiment classifier using Machine learning and deep learning models.Sentiment in the financial markets are very tricky to judge and news have different affects depending on the perspective they are being viewed. Therefore, this makes sentiment classifying very difficult.
+This repo contains code for implementing a financial news healine sentiment classifier using Machine learning and deep learning models. The market sentiment on news headlines have dramatic affects on the financial markets and can create great trading oportunities. Also,sentiment in the financial markets are very tricky to judge and news have different affects depending on the perspective they are being viewed. Therefore, this makes sentiment classification very difficult. <br/>
 ## Data
 Two data sources were used. <br/>
 1- Reuters financial news headlines <br/>
 2- News headlines from kaggle (https://www.kaggle.com/kimo26/financial-news-sentiment)
+
+Both data sources have been labeled by industry experts and contain valuable information.
 
 ## Application
 The final result for this application was a flask based web application that was dockerized and deployed on AWS ECS. <br/>
