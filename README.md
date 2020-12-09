@@ -1,5 +1,5 @@
 ## Sentiment Analysis on Financial Microblogs using Machine learning and DNN
-## Main tech aspect here is to fine tune the BERT model for sentiment classification
+### Main tech aspect here is to fine tune the BERT model for sentiment classification
 
 This repo contains code for implementing a financial news healine sentiment classifier using Machine learning and deep learning models. The market sentiment on news headlines have dramatic affects on the financial markets and can create great trading oportunities. Also,sentiment in the financial markets are very tricky to judge and news have different affects depending on the perspective they are being viewed. Therefore, this makes sentiment classification very difficult. <br/>
 ## Data
