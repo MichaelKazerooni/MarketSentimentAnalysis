@@ -33,7 +33,7 @@ rm -rf .git
 git init   
 git status
 ```  
-You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project. i.e. change the parent directory Insight_Project_Framework and the project directory Insight_Project_Framework:
+You'll see a list of file, these are files that git doesn't recognize. At this point, feel free to change the directory names to match your project.
 Now commit these:
 ```
 git add .
