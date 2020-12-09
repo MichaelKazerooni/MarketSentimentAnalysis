@@ -24,10 +24,6 @@ git clone https://github.com/$username/$repo_name
 cd $repo_name
 
 Create new development branch and switch onto it
-```
-branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
-git checkout -b $branch_name
-```
 
 ## Initial Commit
 Lets start with a blank slate: remove `.git` and re initialize the repo
