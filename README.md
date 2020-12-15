@@ -11,8 +11,7 @@ Both data sources have been labeled by industry experts and contain valuable inf
 
 ## Application
 The final result for this application was a flask based web application that was dockerized and deployed on AWS ECS. <br/>
-You can visit the link below to evaluate the app.<br/>
- http://13.57.245.84:5000/
+
  
 Below you can see a demo of the app <br/>
 ![Alt Text](https://github.com/MichaelKazerooni/MarketSentimentAnalysis/blob/master/sentiment%20analysis%20demo.gif)
